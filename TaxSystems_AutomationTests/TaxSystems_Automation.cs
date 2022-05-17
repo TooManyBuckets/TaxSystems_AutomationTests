@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-﻿using System;
+using System;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
@@ -196,5 +195,5 @@ namespace TaxSystemsTestCases
         }
 
     }
->>>>>>> 8662ad15f2c7283875f0da362d33c5780c31a573
+
 }
