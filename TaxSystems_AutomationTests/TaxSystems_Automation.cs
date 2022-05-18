@@ -41,13 +41,8 @@ namespace TaxSystemsTestCases
             driver.Url = "http://automationpractice.com/index.php";
             Console.WriteLine("This is currently functional");
         }
-        [Test]
-        public void Test1()
-        {
-            driver.Url = "http://www.google.com";
-        }
 
-        /*
+  
         [Test]
         public void TestCase1()
         {
@@ -102,7 +97,7 @@ namespace TaxSystemsTestCases
             driver.FindElement(By.CssSelector(".standard-checkout > span")).Click();
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
         }
-        */
+      
 
         [TearDown]
         public void CloseBrowser()

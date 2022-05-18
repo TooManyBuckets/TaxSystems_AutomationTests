@@ -1,18 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "4wbDay0xZxtQUpNG5F2SMoNSFO88fVvKfXg6CDlDf0pka4KYVMWbMmAVklaIE2Z3J8C3zpnk6jo/JR4/Db25bg==",
+  "dgSpecHash": "npf/mnFEh7pK7TEVEXg7hLZEHfx/VQM1zckknTPBvjtpwYUk18JOpotYM16qxXVBnj7WPQPK2YfVdgyzJIMYLw==",
   "success": true,
   "projectFilePath": "C:\\Users\\walke\\source\\repos\\TooManyBuckets\\TaxSystems_AutomationTests\\TaxSystems_AutomationTests\\TaxSystems_AutomationTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\walke\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
+    "C:\\Users\\walke\\.nuget\\packages\\microsoft.codecoverage\\17.2.0\\microsoft.codecoverage.17.2.0.nupkg.sha512",
+    "C:\\Users\\walke\\.nuget\\packages\\microsoft.net.test.sdk\\17.2.0\\microsoft.net.test.sdk.17.2.0.nupkg.sha512",
     "C:\\Users\\walke\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\walke\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.2.0\\microsoft.testplatform.objectmodel.17.2.0.nupkg.sha512",
+    "C:\\Users\\walke\\.nuget\\packages\\microsoft.testplatform.testhost\\17.2.0\\microsoft.testplatform.testhost.17.2.0.nupkg.sha512",
     "C:\\Users\\walke\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
     "C:\\Users\\walke\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\walke\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
     "C:\\Users\\walke\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
     "C:\\Users\\walke\\.nuget\\packages\\nunit.consolerunner\\3.15.0\\nunit.consolerunner.3.15.0.nupkg.sha512",
     "C:\\Users\\walke\\.nuget\\packages\\nunit3testadapter\\4.2.1\\nunit3testadapter.4.2.1.nupkg.sha512",
     "C:\\Users\\walke\\.nuget\\packages\\selenium.webdriver\\4.1.1\\selenium.webdriver.4.1.1.nupkg.sha512",
-    "C:\\Users\\walke\\.nuget\\packages\\selenium.webdriver.chromedriver\\101.0.4951.4100\\selenium.webdriver.chromedriver.101.0.4951.4100.nupkg.sha512"
+    "C:\\Users\\walke\\.nuget\\packages\\selenium.webdriver.chromedriver\\101.0.4951.4100\\selenium.webdriver.chromedriver.101.0.4951.4100.nupkg.sha512",
+    "C:\\Users\\walke\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
   "logs": []
 }
