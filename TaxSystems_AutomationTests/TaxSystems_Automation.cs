@@ -10,6 +10,7 @@ namespace TaxSystemsTestCases
 {
     class TaxSystems_Automation
     {
+        /*
         static void Main(string[] args)
         {
             //IWebDriver driver = new ChromeDriver();
@@ -18,22 +19,35 @@ namespace TaxSystemsTestCases
             tsa.TestCase1();
             tsa.WindowClose();
         }
+        
 
-        IWebDriver driver;
+     
 
 
         public TaxSystems_Automation(IWebDriver driver)
         {
             this.driver = driver;
         }
+        */
 
-        [OneTimeSetUp]
-        public void start_Browser()
+
+        IWebDriver driver;
+
+        [SetUp]
+        public void startBrowser()
         {
+            driver = new ChromeDriver("C:\\Users\\walke\\source\\repos\\TooManyBuckets\\TaxSystems_AutomationTests");
             driver.Manage().Window.Maximize();
             driver.Url = "http://automationpractice.com/index.php";
             Console.WriteLine("This is currently functional");
         }
+        [Test]
+        public void Test1()
+        {
+            driver.Url = "http://www.google.com";
+        }
+
+        /*
         [Test]
         public void TestCase1()
         {
@@ -88,11 +102,12 @@ namespace TaxSystemsTestCases
             driver.FindElement(By.CssSelector(".standard-checkout > span")).Click();
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
         }
+        */
 
-        [OneTimeTearDown]
-        public void WindowClose()
+        [TearDown]
+        public void CloseBrowser()
         {
-            driver.Dispose();
+            driver.Close();
         }
 
     }
