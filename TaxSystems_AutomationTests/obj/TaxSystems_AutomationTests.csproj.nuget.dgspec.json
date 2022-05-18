@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\walke\\source\\repos\\TaxSystems_AutomationTests\\TaxSystems_AutomationTests\\TaxSystems_AutomationTests.csproj": {}
+    "C:\\Users\\walke\\source\\repos\\TooManyBuckets\\TaxSystems_AutomationTests\\TaxSystems_AutomationTests\\TaxSystems_AutomationTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\walke\\source\\repos\\TaxSystems_AutomationTests\\TaxSystems_AutomationTests\\TaxSystems_AutomationTests.csproj": {
+    "C:\\Users\\walke\\source\\repos\\TooManyBuckets\\TaxSystems_AutomationTests\\TaxSystems_AutomationTests\\TaxSystems_AutomationTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\walke\\source\\repos\\TaxSystems_AutomationTests\\TaxSystems_AutomationTests\\TaxSystems_AutomationTests.csproj",
+        "projectUniqueName": "C:\\Users\\walke\\source\\repos\\TooManyBuckets\\TaxSystems_AutomationTests\\TaxSystems_AutomationTests\\TaxSystems_AutomationTests.csproj",
         "projectName": "TaxSystems_AutomationTests",
-        "projectPath": "C:\\Users\\walke\\source\\repos\\TaxSystems_AutomationTests\\TaxSystems_AutomationTests\\TaxSystems_AutomationTests.csproj",
+        "projectPath": "C:\\Users\\walke\\source\\repos\\TooManyBuckets\\TaxSystems_AutomationTests\\TaxSystems_AutomationTests\\TaxSystems_AutomationTests.csproj",
         "packagesPath": "C:\\Users\\walke\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\walke\\source\\repos\\TaxSystems_AutomationTests\\TaxSystems_AutomationTests\\obj\\",
+        "outputPath": "C:\\Users\\walke\\source\\repos\\TooManyBuckets\\TaxSystems_AutomationTests\\TaxSystems_AutomationTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
