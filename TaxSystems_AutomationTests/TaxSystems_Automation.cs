@@ -12,6 +12,7 @@ namespace TaxSystemsTestCases
     {
 
         IWebDriver driver;
+        IWebElement element;
 
         [SetUp]
         public void startBrowser()
@@ -30,7 +31,13 @@ namespace TaxSystemsTestCases
             driver.FindElement(By.Id("search_query_top")).SendKeys("Printed Summer Dress");
             driver.FindElement(By.Name("submit_search")).Click();
 
-            //Find the correct Summer Dress and Select it
+            //Find the Printed Summer Dress and Select it
+            IWebElement DressDisplayed = driver.FindElement(By.LinkText("Printed Summer Dress"));
+            Boolean status = DressDisplayed.Displayed;
+            if (status == false)
+            {
+                Assert.Fail();
+            }
             driver.FindElement(By.LinkText("Printed Summer Dress")).Click();
 
             //Adjust the colour of the dress to blue
@@ -56,7 +63,7 @@ namespace TaxSystemsTestCases
             driver.FindElement(By.CssSelector(".button-medium > span")).Click();
             driver.FindElement(By.Name("quantity_5_24_0_0")).Click();
             {
-                var element = driver.FindElement(By.Name("quantity_5_24_0_0"));
+                var checkout = driver.FindElement(By.Name("quantity_5_24_0_0"));
             }
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
 
