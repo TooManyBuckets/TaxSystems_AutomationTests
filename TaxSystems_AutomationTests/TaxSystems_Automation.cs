@@ -10,26 +10,6 @@ namespace TaxSystemsTestCases
 {
     class TaxSystems_Automation
     {
-        /*
-        static void Main(string[] args)
-        {
-            //IWebDriver driver = new ChromeDriver();
-            TaxSystems_Automation tsa = new TaxSystems_Automation(new ChromeDriver());
-            tsa.start_Browser();
-            tsa.TestCase1();
-            tsa.WindowClose();
-        }
-        
-
-     
-
-
-        public TaxSystems_Automation(IWebDriver driver)
-        {
-            this.driver = driver;
-        }
-        */
-
 
         IWebDriver driver;
 
