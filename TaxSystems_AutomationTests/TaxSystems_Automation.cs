@@ -9,8 +9,6 @@ namespace TaxSystemsTestCases
     {
 
         IWebDriver driver;
-        IWebElement element;
-
 
         [OneTimeSetUp]
         public void startBrowser()
