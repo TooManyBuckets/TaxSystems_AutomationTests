@@ -10,9 +10,9 @@ This solution has been created to cover the following tests steps as required by
   - Change to M size
   - Quantity 2
   - Add to basket and confirm in resulting pop up the total value
-  - proceed to checkout
+  - Proceed to checkout
   - validate the basket values/elements 
   - update quantity to 3 dresses and validate the updated values.
   - complete checkout (optional)
 
-While not a very elegant, or even a correct solution, this is unfortunately an accurate reproduction of how the inhouse tool of our automation team runs. In order to run these tests, it is simply an instance of running the build. On a successful build, we mark the test as complete. On a failed build, we can view the exact step that it failed on.
+Please clone the repository for solution to your Visual Studio and select the "Tests" dropdown and navigate to the test explorer. From here, click the play button (or press Ctrl + R) and watch the magic of automation take over. 
