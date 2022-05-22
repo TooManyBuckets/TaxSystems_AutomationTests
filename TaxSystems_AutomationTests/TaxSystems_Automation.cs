@@ -15,7 +15,7 @@ namespace TaxSystemsTestCases
         [OneTimeSetUp]
         public void startBrowser()
         {
-            driver = new ChromeDriver("C:\\Users\\walke\\source\\repos\\TooManyBuckets\\TaxSystems_AutomationTests");
+            driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
             driver.Url = "http://automationpractice.com/index.php";
             Console.WriteLine("This is currently functional");
