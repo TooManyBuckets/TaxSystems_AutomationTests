@@ -72,7 +72,6 @@ namespace TaxSystemsTestCases
             //This selects the checkout button and confirms the next pa
             IWebElement PopupTotal = driver.FindElement(By.XPath("/html/body/div/div[1]/header/div[3]/div/div/div[4]/div[1]/div[1]/div[2]/div[2]/span"));
             String PopupTotalText = PopupTotal.Text;
-            Console.Write(PopupTotalText);
             if (PopupTotalText != "$57.96")
             {
                 Assert.Fail("The total amount for this = " + PopupTotalText + ". This is not the correct total");
