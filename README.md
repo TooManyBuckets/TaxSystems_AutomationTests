@@ -15,4 +15,4 @@ This solution has been created to cover the following tests steps as required by
   - update quantity to 3 dresses and validate the updated values.
   - complete checkout (optional)
 
-Please clone the repository for solution to your Visual Studio and select the "Tests" dropdown and navigate to the test explorer. From here, click the play button (or press Ctrl + R) and watch the magic of automation take over. 
+Please download the ZIP file and extract to your visual studio 'repos' folder. From these files open the solution titled "TaxSystems_AutomationTests.sln", select the "Tests" dropdown and navigate to the test explorer. From here, click the play button (or press Ctrl + R) and watch the magic of automation take over.
